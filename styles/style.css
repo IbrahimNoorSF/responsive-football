@@ -1,0 +1,170 @@
+/*---------------------
+    Common Styles
+----------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+/*---------------------
+  First Banner Styles
+----------------------*/
+.top-banner{
+    background-color: #2D25A0;
+}
+.heading{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 114px;
+    justify-content: center;
+    transition: transform 6s linear;
+
+}
+.top-banner-text{
+    font-size: 40px;
+    margin-left: 190px;
+    color: white;
+}
+.banner-img img{
+    width: 556.01px;
+    height: 438px;
+    margin-bottom: 86px;
+    transition: transform 6s linear;
+}
+.heading:hover .banner-img img{
+    transform: scale(1.2);
+}
+
+/*---------------------
+  Player Cards
+----------------------*/
+.player-container {
+    margin: 70px 210px 165px 180px;
+    /* background-color: black; */
+}
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    justify-content: center;
+}
+  
+.player-img img {
+    width: 100%;
+    border-radius: 20px;
+    transition: transform 6s linear;
+}
+.player:hover .player-img img{
+    transform: scale(1.2);
+}
+.player{
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-bottom: 27px;
+    align-items: center;
+    transition: transform 3s linear;
+    overflow: hidden;
+}
+.player:hover {
+    transform: scale(1.1);
+}
+.player-title {
+    font-size: 28px;
+    text-align: inherit;
+}
+.about-player{
+    color: #6c6c6c;
+    font-size: 16px;
+    font-weight: 50px;
+    margin-right: 128px;
+}
+  /* --------------------------
+     Highlight Section 
+-------------------------------*/
+
+.highlight-container {
+    display: grid;
+    align-items: center;
+    margin-bottom: 75px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 120px;
+    margin-bottom: 150px;
+    padding: 0 5px;
+  }
+  .highlights {
+    margin-left: 182px;
+  }
+  .highlight-title {
+    font-size: 48px;
+  }
+  
+  .match-img img {
+    width:567px;
+    height:427px;
+    transition: transform 5s;
+    border-radius: 20px;
+  }
+.highlight-container:hover .match-img img{
+    transform: scale(1.2);
+}
+  .highlights .about-highlight {
+    width: 469px;
+    margin-right: 66px;
+    margin-bottom: 30px;
+    transition: transform 600ms ease-out;
+    color: #6C6C6C;
+
+  }
+
+/* Bonus Part */
+.bonus{
+    align-items: center;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.bonus-1 video{
+    width: 70%;
+}
+.bonus-2{
+    margin: -69px;
+    margin-bottom:150px;
+    width: 409px;
+}
+.bonus-2 h1{
+    font-weight: 700;
+}
+.bonus-2 p{
+    margin-bottom: 25px;
+}
+.bonus-2 span{
+    font-weight: 500;
+}
+.bonus-2 img{
+    width: 100%;
+    margin-top: 360px;
+}
+/* footer part */
+footer {
+    margin-top: 150px;
+    margin-left: 1%;
+    left: 700px;
+    text-align: center;
+    font-size: 18px;
+}
+.footer-img img {
+    width: 483.87px;
+    height: 110px;
+}
+footer div{
+    margin-bottom: 20px;
+}
+.font-aw-icon{
+    font-size: 25px;
+    align-self: center;
+    color: #969BAB;
+}

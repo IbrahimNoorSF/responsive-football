@@ -1,0 +1,23 @@
+nav li {
+    list-style: none;
+    margin-right: 20px;
+    
+}
+nav li a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+nav > ul {
+    display: flex;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 42px 126px 42px 156px;
+}
