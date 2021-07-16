@@ -2,6 +2,7 @@
 
 /* Mobile Devices */
 @media only screen and (max-width: 688px) {
+/*------------------------------------ Common Styles ------------------------------------------------*/
 /*------------------------------------------- Navigation Bar -----------------------------------------*/
 .top-banner nav{
     display: none;
@@ -10,7 +11,7 @@
 .heading{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    height: 1200px;
+    height: 1050px;
 }
 .top-banner-text {
     justify-content: left;
@@ -20,10 +21,13 @@
     margin: 19px;
 }
 .top-banner img {
-    width: 90%;
+    width: 100%;
     position: relative;
-    top: 210px;
-    left: 5px;
+    top: 150px;
+    height: auto;
+}
+.heading:hover .banner-img img{
+    transform: scale(1);
 }
 /*---------------------------------------- Player Card------------------------------------------- */
 .players{
@@ -62,6 +66,12 @@
     margin-right: 0;
     margin-left: 40px;
 }
+.match-img{
+    transform: none;
+}
+.highlight-container:hover .match-img img {
+    transform: scale(1);
+}
 .match-img img{
     width: 328px;
     height: 248px;
@@ -69,5 +79,32 @@
     top: 69px;
     left: 12px;
     transform:none;
+}
+/* ------------------------------------------------Bonus Part --------------------------------------*/
+.bonus{
+    display: block;
+}
+.bonus-1 h1{
+    text-align: center;
+}
+.bonus-1 video {
+    width: 95%;
+    margin-left: 8px;
+}
+.bonus-2 {
+    margin: 0px;
+    margin-bottom: 150px;
+    width: 370px;
+    text-align: center;
+}
+.bonus-2 img {
+    width: 100%;
+    margin-top: 125px;
+    margin-left: 45px;
+}
+/*----------------------------------------------- Footer------------------------------------------------ */
+.footer-img img{
+    width: 94%;
+    height: auto;
 }
 }
