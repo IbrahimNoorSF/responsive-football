@@ -93,31 +93,31 @@ a{
     grid-column-gap: 120px;
     margin-bottom: 150px;
     padding: 0 5px;
-  }
-  .highlights {
+}
+.highlights {
     margin-left: 182px;
-  }
-  .highlight-title {
+}
+.highlight-title {
     font-size: 48px;
-  }
+}
   
-  .match-img img {
+.match-img img {
     width:567px;
     height:427px;
     transition: transform 5s;
     border-radius: 20px;
-  }
+}
 .highlight-container:hover .match-img img{
     transform: scale(1.2);
 }
-  .highlights .about-highlight {
+.highlights .about-highlight {
     width: 469px;
     margin-right: 66px;
     margin-bottom: 30px;
     transition: transform 600ms ease-out;
     color: #6C6C6C;
 
-  }
+}
 
 /* Bonus Part */
 .bonus{
